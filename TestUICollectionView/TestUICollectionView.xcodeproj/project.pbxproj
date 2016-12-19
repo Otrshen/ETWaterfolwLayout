@@ -13,8 +13,8 @@
 		273097D01D4EE6220062D71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273097CE1D4EE6220062D71A /* Main.storyboard */; };
 		273097D21D4EE6220062D71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273097D11D4EE6220062D71A /* Assets.xcassets */; };
 		273097D51D4EE6220062D71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273097D31D4EE6220062D71A /* LaunchScreen.storyboard */; };
-		273097DE1D4F306C0062D71A /* ETWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 273097DD1D4F306C0062D71A /* ETWaterflowLayout.m */; };
-		273097E11D4F42950062D71A /* ETHorizontalWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 273097E01D4F42950062D71A /* ETHorizontalWaterflowLayout.m */; };
+		C7A5349E1E08149E006FE568 /* ETHorizontalWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5349B1E08149E006FE568 /* ETHorizontalWaterflowLayout.m */; };
+		C7A5349F1E08149E006FE568 /* ETWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5349D1E08149E006FE568 /* ETWaterflowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		273097D11D4EE6220062D71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		273097D41D4EE6220062D71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		273097D61D4EE6220062D71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		273097DC1D4F306C0062D71A /* ETWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETWaterflowLayout.h; sourceTree = "<group>"; };
-		273097DD1D4F306C0062D71A /* ETWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETWaterflowLayout.m; sourceTree = "<group>"; };
-		273097DF1D4F42950062D71A /* ETHorizontalWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHorizontalWaterflowLayout.h; sourceTree = "<group>"; };
-		273097E01D4F42950062D71A /* ETHorizontalWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHorizontalWaterflowLayout.m; sourceTree = "<group>"; };
+		C7A5349A1E08149E006FE568 /* ETHorizontalWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHorizontalWaterflowLayout.h; sourceTree = "<group>"; };
+		C7A5349B1E08149E006FE568 /* ETHorizontalWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHorizontalWaterflowLayout.m; sourceTree = "<group>"; };
+		C7A5349C1E08149E006FE568 /* ETWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETWaterflowLayout.h; sourceTree = "<group>"; };
+		C7A5349D1E08149E006FE568 /* ETWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETWaterflowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +64,7 @@
 		273097C41D4EE6220062D71A /* TestUICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				273097DF1D4F42950062D71A /* ETHorizontalWaterflowLayout.h */,
-				273097E01D4F42950062D71A /* ETHorizontalWaterflowLayout.m */,
-				273097DC1D4F306C0062D71A /* ETWaterflowLayout.h */,
-				273097DD1D4F306C0062D71A /* ETWaterflowLayout.m */,
+				C7A534991E08149E006FE568 /* ETWaterfolwLayout */,
 				273097C81D4EE6220062D71A /* AppDelegate.h */,
 				273097C91D4EE6220062D71A /* AppDelegate.m */,
 				273097CB1D4EE6220062D71A /* ViewController.h */,
@@ -87,6 +84,17 @@
 				273097C61D4EE6220062D71A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A534991E08149E006FE568 /* ETWaterfolwLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C7A5349A1E08149E006FE568 /* ETHorizontalWaterflowLayout.h */,
+				C7A5349B1E08149E006FE568 /* ETHorizontalWaterflowLayout.m */,
+				C7A5349C1E08149E006FE568 /* ETWaterflowLayout.h */,
+				C7A5349D1E08149E006FE568 /* ETWaterflowLayout.m */,
+			);
+			path = ETWaterfolwLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273097DE1D4F306C0062D71A /* ETWaterflowLayout.m in Sources */,
+				C7A5349E1E08149E006FE568 /* ETHorizontalWaterflowLayout.m in Sources */,
 				273097CD1D4EE6220062D71A /* ViewController.m in Sources */,
+				C7A5349F1E08149E006FE568 /* ETWaterflowLayout.m in Sources */,
 				273097CA1D4EE6220062D71A /* AppDelegate.m in Sources */,
-				273097E11D4F42950062D71A /* ETHorizontalWaterflowLayout.m in Sources */,
 				273097C71D4EE6220062D71A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +322,7 @@
 				273097DB1D4EE6220062D71A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

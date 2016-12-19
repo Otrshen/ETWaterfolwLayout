@@ -24,11 +24,11 @@ static NSString * const XMGShopId = @"shop";
     [super viewDidLoad];
     
     // 垂直瀑布流
-//    ETWaterflowLayout *layout = [[ETWaterflowLayout alloc] init];
-//    layout.delegate = self;
-    
-    ETHorizontalWaterflowLayout *layout = [[ETHorizontalWaterflowLayout alloc] init];
+    ETWaterflowLayout *layout = [[ETWaterflowLayout alloc] init];
     layout.delegate = self;
+    
+//    ETHorizontalWaterflowLayout *layout = [[ETHorizontalWaterflowLayout alloc] init];
+//    layout.delegate = self;
     
     CGRect viewFrame = CGRectMake(20, 20, 330, 200);
     
