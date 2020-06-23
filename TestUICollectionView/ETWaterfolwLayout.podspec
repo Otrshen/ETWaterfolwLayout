@@ -2,14 +2,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "ETWaterfolwLayout"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "垂直方向和水平方向的瀑布流"
-  s.homepage     = "https://github.com/LarkNan/ETWaterfolwLayout"
+  s.homepage     = "https://github.com/Otrshen/ETWaterfolwLayout"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "申铭" => "569818710@qq.com" }
+  s.author             = { "申铭" => "otrshen@foxmail.com" }
   s.social_media_url   = "http://www.jianshu.com/users/0ac50007f001/latest_articles"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/LarkNan/ETWaterfolwLayout.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Otrshen/ETWaterfolwLayout.git", :tag => "#{s.version}" }
   s.source_files  = "TestUICollectionView/ETWaterfolwLayout/*.{h,m}"
   s.requires_arc = true
   
