@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Otrshen/ETWaterfolwLayout"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "申铭" => "otrshen@foxmail.com" }
-  s.social_media_url   = "http://www.jianshu.com/users/0ac50007f001/latest_articles"
+  s.social_media_url   = "https://www.otrshen.xyz"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Otrshen/ETWaterfolwLayout.git", :tag => "#{s.version}" }
   s.source_files  = "TestUICollectionView/ETWaterfolwLayout/*.{h,m}"
